@@ -1,0 +1,75 @@
+
+header{
+    background-color: rgba(red, green, blue, alpha);
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Aplica o efeito de blur */
+    margin-bottom: 5px;
+}   
+
+.boxHeader{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    color: #fff;
+    font-size: 27px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.logo a h1{
+    font-size: 23px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px 3px 15px;
+    margin: 0 7px;
+    border-bottom: 2px solid #6901a5;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover{
+    color: #6901a5;
+}
+
+.btnHeader{
+    background-color: #fff;
+    color: #170029;
+    padding: 10px 20px;
+    margin-left: 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btnHeader:hover {
+    background-color: #6901a5;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Fim do principal */

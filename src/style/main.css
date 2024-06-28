@@ -1,0 +1,155 @@
+main{
+    max-width: 1300px;
+    margin: 50px auto;
+}
+.boxAbout{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.imgAbout{
+    width: 500px; 
+    float: right;
+}
+
+.about {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    margin: 200px 0;
+}
+
+.about h2{
+    font-size: 45px;
+}
+
+.about h3{
+    font-size: 35px;
+    margin-bottom: 20px
+}
+
+.btnMain {
+    margin: 50px 0;
+    padding: 20px 35px; 
+    border-radius: 10px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transition: 0.3s;
+}
+
+.btnMain:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #6901a5;
+}
+
+.boxMidia {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    
+}
+
+.mainMidia {
+    display: flex;
+    list-style-type: none; 
+}
+
+.mainMidia ul {
+    display: flex;
+    margin-right: 20px;
+    list-style: none; 
+}
+
+.mainMidia ul li{
+    margin-right: 20px;
+}
+
+.mainMidia ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.mainMidia ul li a:hover{
+    background-color: #fff;
+    color: #6901a5;
+}
+
+/* Skills */
+
+/* Inicio skills */
+
+.boxlanguage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.languages img{
+    height: 75px;
+    margin: 10px 30px;
+
+}
+
+/* Cards */
+.containerCard {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.boxContainerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxCard {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    height: 300px;
+    border: 2px solid #fff;
+    margin: 0 10px;
+    border-radius: 25px;
+    padding-top: 20px;
+    cursor: pointer;
+    width: 300px; /* Ajuste a largura conforme necessário */
+}
+
+.card h3 {
+    margin: 20px 0;
+}
+
+.informacoes-projeto{
+    background-color: #fff;
+    color: #6901a5;
+    margin-top: 50%;
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.informacoes-projeto:hover{
+    background-color: #6901a5;
+    color: #fff;
+}

@@ -1,0 +1,21 @@
+Link Icones Bootstrap: 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+
+Icones HTML:
+
+    <i class="bi bi-rocket-takeoff-fill"></i> - Foguete Logo
+    <i class="bi bi-instagram"></i> - Instagram
+    <i class="bi bi-github"></i> - Github
+    <i class="bi bi-linkedin"></i> - Linkedin
+
+Apresentação:
+
+    <p>Sou um adolescente de 17 anos, que gosta bastante de tecnologia, estudo Desenvolvimento Web Front-end desde dos meus 15 anos de idade, e tô aplicando meus conhecimentos para alcançar e conquistar meus objetivos.</p>
+
+Import fontes CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+https://via.placeholder.com/500
